@@ -2,4 +2,5 @@
 {
     Console.Write($"{Calc.Fibonacci.v1(i)} ");
 }
+Console.Write("Started");
 Console.Write("\n");

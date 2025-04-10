@@ -84,13 +84,13 @@ rm -r packageDir
 orb restart docker
 
 # Create image
-docker build -t c_sandbox:dev .
+docker build -t csharp_sandbox:dev .
 
 # Build ephemeral container
-docker run --rm c_sandbox:dev
+docker run --rm csharp_sandbox:dev
 
 # Destroy image
-docker rmi c_sandbox:dev
+docker rmi csharp_sandbox:dev
 ```
 
 <!--TODO:
@@ -116,16 +116,6 @@ Update project/repository naming in various places and update the README:
 - `Dockerfile`
 - `README.md`
 - `flake.nix`
-
-Rebuild the environment
-```sh
-./build.sh
-```
-
-Repopulate and Rerun the Build
-```sh
-./run.sh
-```
 
 <!--TODO:-->
 

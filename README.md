@@ -1,5 +1,5 @@
-# csharp_sandbox
-sandbox:CSharp Programming and Turnkey Ecosystem
+# csharp-sandbox
+sandbox:C# Programming and Turnkey Ecosystem
 
 [Environment](#environment)
 - [Configuration](#configuration)
@@ -19,7 +19,7 @@ sandbox:CSharp Programming and Turnkey Ecosystem
 #### Getting Started
 Clone the repo
 ```sh
-git clone git@github.com:permalik/c_sandbox.git
+git clone git@github.com:permalik/csharp-sandbox.git
 ```
 
 [Install Nix](https://nixos.org/download/)
@@ -84,13 +84,13 @@ rm -r packageDir
 orb restart docker
 
 # Create image
-docker build -t csharp_sandbox:dev .
+docker build -t csharp-sandbox:dev .
 
 # Build ephemeral container
-docker run --rm csharp_sandbox:dev
+docker run --rm csharp-sandbox:dev
 
 # Destroy image
-docker rmi csharp_sandbox:dev
+docker rmi csharp-sandbox:dev
 ```
 
 <!--TODO:
